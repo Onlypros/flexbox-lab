@@ -125,7 +125,6 @@
   #headers {
     display:flex;
     flex-direction:column /* converted the row layout into columns*/
-    
   }
 
   #trending {
@@ -150,22 +149,7 @@
     margin: 15px
   }
 
-  .img-placeholder{
-    display:flex;
-    
-  }
-
   .card-footer{
     display:flex;
     justify-content:space-between;
-    
   }
-
-  .card-footer h3 {
-    display:flex;
-  }
-
-  .card-footer p {
-    display:flex;
-  }
-
