@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: gray;
+    font-family: system-ui, sans-serif;
+    margin: 0;
+  }
+  
+  nav {
+    background-color: white;
+    padding: 8px 16px;
+    display:flex;
+    justify-content:space-between; /* this allowed me to spread the elements
+     out in the nav bar*/
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  section {
+    height: 460px;
+    background-color: black;
+    color: white;
+    padding: 24px 72px;
+  }
+  
+  h1,
+  h2 {
+    text-align: center;
+  }
+  
+  h1 {
+    margin-top: 0;
+    font-size: 32px;
+  }
+  
+  h2 {
+    font-size: 16px;
+    margin-bottom: 0;
+  }
+  
+  input {
+    height: 58px;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 29px;
+    border: 0px;
+    padding: 0 24px;
+  }
+  
+  main {
+    background-color: white;
+    padding: 32px 72px;
+  }
+  
+  nav button {
+    background-color: #ea4c89;
+    border-radius: 8px;
+    padding: 10px 16px;
+    border: 0;
+    color: #ffffff;
+    font-weight: 500;
+  }
+  
+  .img-placeholder {
+    width: 355px;
+    height: 270px;
+    background-color: gray;
+    border-radius: 8px;
+  }
+  
+  .card-footer {
+    font-size: 14px;
+  }
+  
+  .card-footer * {
+    margin-top: 8px;
+  }
+  
+  #subnav {
+    padding: 32px 72px 0;
+    background-color: white;
+  }
+  
+  #subnav button {
+    border-radius: 8px;
+    padding: 10px 16px;
+    border: 1px solid black;
+    background-color: white;
+  }
+  
+  #trending p {
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    padding: 6px 15px;
+  }
+
+  #destinations {
+    display: flex; /* display:flex; allows you to turn elements into flex boxes*/
+    justify-content: flex-start; /* sets the anchor location for the element */
+    gap: 15px;  /*creates spaces between each element horizontally */
+    padding: 10px; /*creates padding above and below elements */
+  }
+
+  #actions {
+    display:flex;
+    gap: 10px /*this creates space horizontally between the elements */
+}
+
+  #actions p {
+    margin:auto; /* this centered the magnifying glassand sign in text */
+}
+
+  #hero {
+    display:flex;
+    flex-direction:column; /* converted the row layout into columns*/
+    justify-content:space-evenly;  /*this isnt good enough*/
+    align-items:center; /* aligns evertyhing to the center*/
+}
+  
+  #headers {
+    display:flex;
+    flex-direction:column /* converted the row layout into columns*/
+    
+  }
+
+  #trending {
+    display:flex;
+    gap:10px;
+  }
+
+  #subnav {
+    display:flex;
+    justify-content: space-between;
+  }
+
+  main {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+  }
+
+  .card{
+    display:flex;
+    flex-direction:column;
+    margin: 15px
+  }
+
+  .img-placeholder{
+    display:flex;
+    
+  }
+
+  .card-footer{
+    display:flex;
+    justify-content:space-between;
+    
+  }
+
+  .card-footer h3 {
+    display:flex;
+  }
+
+  .card-footer p {
+    display:flex;
+  }
+
